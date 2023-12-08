@@ -1,0 +1,156 @@
+export const Cast = [
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/aditi-shankar-2018959-1689055704.jpg",
+        name:"Aditi Shankar",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sunil-2292-24-03-2017-18-02-16.jpg",
+        name:"Sunil",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/mysskin-5038-24-03-2017-14-02-47.jpg",
+        name:"Mysskin",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/yogi-babu-1055754-02-12-2021-12-53-23.jpg",
+        name:"Yogi Babu",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/mysskin-5038-24-03-2017-14-02-47.jpg",
+        name:"Mysskin",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    }
+];
+
+
+export const Crew = [
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/madonne-ashwin-2020610-1657869488.jpg",
+        name:"Madonne Ashwin",
+        role:"Director,Writer"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/bharath-sankar-1083948-29-06-2017-21-53-44.jpg",
+        name:"Bharath Sankar",
+        role:"Musician"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/vidhu-ayyanna-1086912-18-10-2017-04-19-33.jpg",
+        name:"Vidhu Ayyanna",
+        role:"Cinemotographer"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/philomin-raj-2017575-1665748194.jpg",
+        name:"Philomin Raj",
+        role:"Editor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/kumar-gangappan-1264908-29-01-2019-02-14-18.jpg",
+        name:"Kumar Gangappan",
+        role:"Art Director"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+    {
+        src:"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/sivakarthikeyan-1042969-18-09-2017-03-37-23.jpg",
+        name:"Sivakarthikeyan",
+        role:"Actor"
+    },
+];
