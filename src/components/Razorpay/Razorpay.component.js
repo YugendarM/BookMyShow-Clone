@@ -2,7 +2,7 @@ const launchRazorpay = () => {
     let options = {
         key: "rzp_test_9Zc0lQjf6OHKJy",
         image: "https://taxadvisor.net.in/wp-content/uploads/2021/06/rp-1-2048x433.png",
-        amount: 500*100,
+        amount: 1*100,
         currency: "INR",
         name: "Book My Show Clone",
         description: "Movie Ticket Purchase on Rental",
