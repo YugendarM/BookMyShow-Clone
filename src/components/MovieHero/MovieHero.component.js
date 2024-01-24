@@ -5,21 +5,24 @@ import launchRazorpay from "../Razorpay/Razorpay.component";
 
 const MovieHero = (props) => {
 
+
+
     return(
         <div className="bg-transparent container mx:auto lg:px-52 lg:bg-bookmyshow-bgdarkGray ">
             <div className="md:hidden sm:bg-transparent" style={{backgroundColor:"transparent"}}>
                 <img 
                     className="bg-transparent"
-                    src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/maaveeran-et00357966-1687763694.jpg"
+                    src= {`https://image.tmdb.org/t/p/original${props.backdrop_path}`}
                     alt="poster"
                 />
             </div>
 
             <div className=" hidden md:block  lg:hidden">
             <img 
-                    src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/maaveeran-et00357966-1687763694.jpg"
+                    src= {`https://image.tmdb.org/t/p/original${props.backdrop_path}`}
                     alt="poster"
                 />
+
             </div>
 
             <div className=" container mx-auto  hidden relative lg:block  w-full " style={{height:"390px"}}>
@@ -30,19 +33,24 @@ const MovieHero = (props) => {
                         <div className="rounded-md ">
                             <img
                                 className="rounded-t-md lg_poster w-full h-72"
-                                src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/maaveeran-et00357966-1687763694.jpg"
+                                src= {`https://image.tmdb.org/t/p/original${props.poster_path}`}
                             />
                             
                             <div className="bg-black flex justify-center rounded-b-md">
-                                <p className="text-white py-1 text-xs">In cinemas</p>
+                                {props.status === "Released" && 
+                                    <p className="text-white py-1 text-xs">In cinemas</p>
+                                }
+                                {props.status === "Post Production" && 
+                                    <p className="text-white py-1 text-xs">Releasing on {props.release_date}</p>
+                                }
                             </div>
                         </div>
                         <div className="flex flex-col gap-3">
-                            <h1 className="font-bold text-2xl text-white">Maveeran</h1>
+                            <h1 className="font-bold text-2xl text-white">{props.title}</h1>
                             <div className="flex align-baseline gap-2 text-white items-end" >
                                 <AiFillStar className="text-2xl text-bookmyshow-btnpink"/>
-                                <h1 className="font-semibold text-xl">8.2/10</h1>
-                                <p className="text-sm">19.8k votes</p>
+                                <h1 className="font-semibold text-xl">{props.vote_average}/10</h1>
+                                <p className="text-sm">{props.vote_count} votes</p>
                                 <FiChevronRight/>
                             </div>
                             <div className="flex text-white bg-bookmyshow-bgGray rounded-md py-2 px-4 gap-14 items-center justify-between">
@@ -56,9 +64,23 @@ const MovieHero = (props) => {
                             </div>
                             <div className="flex gap-3">
                                 <a className="bg-white text-sm text-black py-0.5 align-middle px-3 rounded-sm">2D</a>
-                                <a className="bg-white text-sm text-black py-0.5 align-middle px-3 rounded-sm">Tamil</a>
+                                {props.original_language === "en" && 
+                                    <a className="bg-white text-sm text-black py-0.5 align-middle px-3 rounded-sm">
+                                     English
+                                    </a>
+                                }
+                                {props.original_language === "en" && 
+                                    <a className="bg-white text-sm text-black py-0.5 align-middle px-3 rounded-sm">
+                                     Tamil
+                                    </a>
+                                }
+                                {props.original_language === "ja" && 
+                                    <a className="bg-white text-sm text-black py-0.5 align-middle px-3 rounded-sm">
+                                     Japanese
+                                    </a>
+                                }
                             </div>
-                            <p className="text-white text-sm">2h 43m • Action, Thriller • UA • 14 Jul, 2023</p>
+                            <p className="text-white text-sm">{props.runtime} mins • {props.genres && props.genres.map((genre) => (<span>{genre.name}, </span>))} • UA • {props.release_date}</p>
                             <button onClick={launchRazorpay} className="bg-bookmyshow-btnpink text-white py-2.5 px-8 rounded-md font-semibold text-sm w-40">Book tickets</button>
                         </div>
                     </div>
@@ -66,7 +88,7 @@ const MovieHero = (props) => {
 
                 <img 
                     className="m-auto w-full h-full self-start lg_back_drop"
-                    src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/maaveeran-et00357966-1687763694.jpg"
+                    src= {`https://image.tmdb.org/t/p/original${props.backdrop_path}`}
                     alt="poster"
                 />
             </div>

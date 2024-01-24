@@ -23,17 +23,17 @@ const Footer =() => {
 
         <div className="py-10 bg-bookmyshow-footerBg2 lg:px-64 container  mx-auto">
         <div className="flex justify-between items-center container mx-auto px-20">
-            <div className="flex flex-col gap-2 items-center justify-center text-gray-400 hover:text-white  ease-in transition cursor-pointer">
+            <div className="w-64   flex flex-col gap-2 items-center justify-center text-gray-400 hover:text-white  ease-in transition cursor-pointer">
                 <RiCustomerService2Fill className="text-5xl"/>
                 <p className="text-xs">24/7 CUSTOMER CARE</p>
             </div>
 
-            <div className="flex flex-col gap-2 items-center justify-center text-gray-400 hover:text-white  ease-in transition cursor-pointer">
+            <div className="w-64  flex flex-col gap-2 items-center justify-center text-gray-400 hover:text-white  ease-in transition cursor-pointer">
                 <IoTicketSharp className="text-5xl"/>
                 <p className="text-xs">RESEND BOOKING CONFIRMATION</p>
             </div>
 
-            <div className="flex flex-col gap-2 items-center justify-center text-gray-400 hover:text-white  ease-in transition cursor-pointer">
+            <div className=" w-64 flex flex-col gap-2 items-center justify-center text-gray-400 hover:text-white  ease-in transition cursor-pointer">
                 <BsNewspaper className="text-5xl"/>
                 <p className="text-xs">SUBSCRIBE TO THE NEWSLETTER</p>
             </div>
@@ -62,7 +62,7 @@ const Footer =() => {
 
         <div className="relative my-16">
             <hr className="border-gray-500 h-0.5  left-0 top-0 w-full"/>
-            <div className="bg-bookmyshow-footerBg relative bottom-7 w-32 flex justify-center items-center" style={{inset:"44%", bottom:"30px"}}>
+            <div className="bg-bookmyshow-footerBg relative bottom-7 w-32 flex justify-center items-center" style={{inset:"46%", bottom:"30px"}}>
             <img src="https://bookmyshow-clone-masaischool.netlify.app/bookmyshow-logo.png" className="h-16 "/>
             </div>
         </div>
