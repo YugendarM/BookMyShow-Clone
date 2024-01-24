@@ -1,24 +1,28 @@
 import React from "react";
 
+const leftLinks = ["Movies","Stream","Events","Plays","Sports","Activities","Buzz"];
+const rightLinks = ["ListYourShow", "Corporates","Offers", "Gift Cards"];
+
 const Navlinks = () => {
 
     return(
-        <div className="bg-bookmyshow-darkmodeblue ">
-            <div className="container mx-auto flex justify-between items-center list-none py-2 ">
-                <div className="flex gap-8 text-lg text-white">
-                    <li>Movies</li>
-                    <li>Stream</li>
-                    <li>Events</li>
-                    <li>Plays</li>
-                    <li>Sports</li>
-                    <li>Activities</li>
-                    <li>Buzz</li>
+        <div className="bg-bookmyshow-darkmodeblue h-8">
+            <div className="container w-8/12  mx-auto flex justify-between items-center list-none py-2 ">
+
+                
+                <div className="flex gap-8 text-xs text-white">
+                    {
+                        leftLinks.map((link) => (
+                            <li className="hover:text-gray-200 hover:border-b cursor-pointer">{link}</li>
+                        ))
+                    }
                 </div>
-                <div className="flex gap-8 text-lg text-white">
-                    <li>ListYourShow</li>
-                    <li>Corporates</li>
-                    <li>Offers</li>
-                    <li>Gift Cards</li>
+                <div className="flex gap-8 text-xs text-white">
+                    {
+                        rightLinks.map((link) => (
+                            <li className="hover:text-gray-200 hover:border-b cursor-pointer" >{link}</li>
+                        ))
+                    }
                 </div>
             </div>
         </div>

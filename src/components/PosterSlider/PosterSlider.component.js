@@ -6,10 +6,10 @@ import Slider from "react-slick";
 const PosterSlider = (props) => {
   return (
     <>
-      <div className="container mx-auto flex flex-col ">
+      <div className="container mx-auto flex flex-col my-4 lg:px-64" style={{width:"98vw"}} >
         <h1
-          className={`font-bold text-4xl px-3 ${
-            props.isDark ? "text-white" : "text-black"
+          className={`font-bold text-2xl px-3 ${
+            props.isDark ? "text-white" : "text-gray-800"
           }`}
         >
           {props.title}

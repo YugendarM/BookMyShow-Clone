@@ -75,9 +75,9 @@ const HeroCarousel = () => {
             <HeroSlider { ...settingsLg } >
                 {
                     images.map ((image) => (
-                        <div className="w-full h-1/3 px-1 py-2" >
+                        <div className="w-full h-1/5 px-1 py-2" >
                             <img  src= {`https://image.tmdb.org/t/p/original${image.backdrop_path}`}
-                             alt="images" className="w-full  rounded-md" style={{height:"500px"}}/>
+                             alt="images" className="w-full h-1/5 rounded-md" style={{height:"300px"}}/>
                         </div>
                     ))
                 }

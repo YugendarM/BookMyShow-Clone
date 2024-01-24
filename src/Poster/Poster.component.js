@@ -11,11 +11,11 @@ const Poster = (props) => {
                     alt = {props.original_title}
                 />
                 <h1
-                    className={`font-semibold text-xl
+                    className={`font-semibold text-lg
                     ${props.isDark ? "text-white" : "text-black" 
                     }`}
                 >{props.original_title}</h1>
-                <p className={` text-md  
+                <p className={` text-sm  
                     ${props.isDark ? "text-white" : "text-black" 
                 }`}
                 >{props.release_date}</p>

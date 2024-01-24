@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         bookmyshow: 
             {
-              btinnpk: '#ef4f5f',//
+              btnpink: '#ef4f5f',//
               navblue: '#333545',
               darkmodeblue: '#2b3149',
               bgGray: '#333333',

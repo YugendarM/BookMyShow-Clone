@@ -10,8 +10,8 @@ const CastnCrewPoster  = (props) => {
                 className = "w-5/6 h-5/6 rounded-full cursor-pointer"
                 alt = {props.name}
             />
-            <h1 className="font-semibold text-xl">{props.name}</h1>
-            <p className=" text-md ">{props.role}</p>
+            <h1 className="font-semibold text-sm">{props.name}</h1>
+            <p className=" text-xs font-medium ">{props.role}</p>
         </div>
         </>
     );

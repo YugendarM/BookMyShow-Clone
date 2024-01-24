@@ -46,7 +46,7 @@ const HomePage = () => {
     },[])
 
     return(
-        <div className="w-full flex flex-col justify-center items-center">
+        <div className="w-full flex flex-col  justify-center items-center container">
 
         <div className=" ">
                 <PosterSlider 
@@ -57,20 +57,19 @@ const HomePage = () => {
                 />
         </div>
 
-        <div className="container mx-auto w-full py-4 my-16">
-            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/stream-leadin-web-collection-202210241242.png" className="w-full"/>
+        <div className="container mx-auto lg:px-64 w-full ">
+            <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/stream-leadin-web-collection-202210241242.png" className="w-full lg:px-2"/>
         </div>
 
-        <div className="container mx-auto  w-full">
-            <h1 className="font-bold text-2xl px-4 text-gray-700">The Best Of Live Events</h1>
+        <div className="container lg:px-64 mx-auto my-10  w-full">
+            <h1 className="font-bold text-2xl px-4 text-gray-800">The Best Of Live Events</h1>
             <EntertainmentCardSlider/>
             
         </div>
-        <div className="  my-16 bg-bookmyshow-darkmodeblue w-full py-4  flex flex-col gap-4 " style={{width:"100vw"}}>
-            <div className=" container mx-auto ">
+        <div className="  my-16 bg-bookmyshow-darkmodeblue w-full py-4  flex flex-col gap-4 " >
+            <div className=" container lg:px-64 mx-auto ">
                 <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/premiere-banner-web-collection-202208191200.png" className="cursor-pointer"/>
             </div>
-            {/* <PremierSlider/> */}
 
 
             <div className="">

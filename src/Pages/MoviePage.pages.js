@@ -6,7 +6,7 @@ const MoviePage = () => {
     return (
         <>
         <MovieHero/>
-        <AboutMovie discription="A cowardly cartoonist starts being `controlled` by a cartoon action figure. Can he take on a corrupt politician?"/>
+        <AboutMovie />
         </>
     );
 };
