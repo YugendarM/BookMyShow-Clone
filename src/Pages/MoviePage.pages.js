@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
 import '../App.css';
 import MovieHero from "../components/MovieHero/MovieHero.component";
 import AboutMovie from "../components/AboutMovie/AboutMovie.component";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import { useEffect, useState } from 'react';
 
 
 const MoviePage = () => {

@@ -1,7 +1,5 @@
 import './App.css';
 import React from 'react';
-import { Route } from 'react-router-dom';
-import { Routes } from 'react-router-dom';
 //HOC
 import   DefaultHOC from './HOC/Default.HOC';
 import MovieHOC from './HOC/Movie.HOC';

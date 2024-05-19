@@ -51,7 +51,7 @@ const HomePage = () => {
 
 <div className=" ">
         <PosterSlider 
-        title = "Recommended Movies" 
+        title = "Recommmmmmmended Movies" 
         subtitle = "" 
         contents = {popularMovies}
         isDark = {false}
